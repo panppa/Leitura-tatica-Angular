@@ -1,0 +1,62 @@
+h1,h2{
+    margin: 40px;
+    margin-bottom: 10px;
+    text-align: center;
+    padding-bottom: 2px;
+}
+.grid div{
+    background-color: black;
+    color: white;
+    height: 200px;
+    width: 200px;
+    display: flex;
+}
+.grid div:hover{
+    cursor: pointer;
+    box-shadow: 2px 2px 3px black;
+}
+.grid div p{
+    font-size: 150%;
+    color:white;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    width: 100%;
+    text-shadow: 2px 2px 1px black;
+    margin-bottom: 5px;
+}
+.grid{
+    margin-top: 20px;
+    width:fit-content;
+    display: grid;
+    grid-template-columns: 50%  1fr;
+    gap:10px;
+}
+.section{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: inherit;
+}
+#xadrez{
+    background-image: url("../../../assets/Images/chess.jpg");
+    background-size: cover;
+	border-radius: 8px;
+}
+#damas{
+    background-image: url("../../../assets/Images/damas.jpg");
+    background-position: center;
+    background-size: 180%;
+	border-radius: 8px;
+}
+#poker{
+    background-image: url("../../../assets/Images/poker.jpg");
+    background-size: 140%;
+    background-position: center;
+    border-radius: 8px;
+}
+#tictactoe{
+    background-image: url("../../../assets/Images/tictactoe.jpg");
+    background-size: cover;
+	border-radius: 8px;
+}
