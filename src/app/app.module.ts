@@ -6,13 +6,19 @@ import { AppComponent } from './app.component';
 import { HeaderComponent } from './components/header/header.component';
 import { HomeComponent } from './components/home/home.component';
 import { XadrezComponent } from './components/xadrez/xadrez.component';
+import { DamasComponent } from './components/damas/damas.component';
+import { PokerComponent } from './components/poker/poker.component';
+import { JogoDaVelhaComponent } from './components/jogo-da-velha/jogo-da-velha.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
     HomeComponent,
-    XadrezComponent
+    XadrezComponent,
+    DamasComponent,
+    PokerComponent,
+    JogoDaVelhaComponent
   ],
   imports: [
     BrowserModule,

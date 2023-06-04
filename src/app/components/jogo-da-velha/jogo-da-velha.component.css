@@ -1,0 +1,60 @@
+#tabuleiro {
+    display: flex;
+    flex-direction: column;
+    height: fit-content;
+    width: fit-content;
+    border: 1px solid rgb(0,15,85);
+    background-color: rgb(173,216,230);
+}
+.linha{
+    display: flex;
+}
+.linha div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 65px;
+    height: 65px;
+    border: 2px solid rgb(0,15,85);
+    font-size: 60px;
+    cursor: pointer;
+}
+.linha div:hover {
+    background-color: aliceblue;
+}
+.controle{
+    margin-top: 20px;
+    width: 300px;
+    display: flex;
+    align-items: center;
+}
+button a{
+    color: white;
+}
+button a:hover{
+    color: black;
+}
+button{
+    background: rgb(43, 43, 43);
+    text-decoration: none;
+    width:150px;
+    height: 30px;
+    margin:2px;
+    font-size: 15px;
+    border: none;
+    color: rgb(255, 255, 255);
+    border: 1px solid rgb(255, 255, 255);
+    font-family: 'Poppins';
+    font-size: 0.7em;
+    text-decoration: none;
+    display: inline-block;
+    transition-duration: 0.4s;
+    border-radius: 8px;
+}
+button:hover{
+text-decoration: none;
+border: 1px solid rgb(0, 0, 0);
+background-color: rgb(255, 255, 255);
+color: #000000;
+}
