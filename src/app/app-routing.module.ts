@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
+import { HashLocationStrategy, LocationStrategy } from '@angular/common';
 
 import { HomeComponent } from './components/home/home.component';
 import { XadrezComponent } from './components/xadrez/xadrez.component';
@@ -11,6 +12,7 @@ const routes: Routes = [{ path: '', component: HomeComponent },{ path: 'xadrez',
 
 @NgModule({
   imports: [RouterModule.forRoot(routes)],
-  exports: [RouterModule]
+  exports: [RouterModule],
+  providers: [{ provide: LocationStrategy, useClass: HashLocationStrategy }]
 })
 export class AppRoutingModule { }
