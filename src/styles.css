@@ -65,9 +65,14 @@ body{
 	background-color: rgb(255, 255, 255);
 	color: #000000;
 }
-
 .relacionados{
     margin-top: 40px;
+}
+.relacionados div{
+    display: flex;
+}
+.relacionados div figure{
+    margin: 20px;
 }
 
 @media only screen and (min-width: 800px) {
