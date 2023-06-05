@@ -1,0 +1,17 @@
+th{
+    width: 200px;
+    margin: 20px;
+}
+tr{
+    margin:20px;
+}
+img{
+    width:100%;
+}
+*{
+    align-items: center;
+    text-align: center;
+}
+table{
+    margin-top: 60px;
+}

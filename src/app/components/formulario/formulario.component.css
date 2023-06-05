@@ -1,0 +1,73 @@
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+form{
+    color: white;
+    background-color: rgba(0, 0, 0, 0.445);
+    width: fit-content;
+    padding: 15px;
+    border-radius: 8px;
+    backdrop-filter: blur(1px);
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.camposDeTexto {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 30px;
+}
+.camposDeTexto div{
+    display: flex;
+    width: 60%;
+    text-align: center;
+    justify-content: space-around;
+}
+.camposDeTexto p{
+    padding: 10px;
+    width:fit-content;
+    text-align: left;
+}
+.camposDeTexto input{
+    height: 25px;
+    width: 250px;
+    border: none;
+    outline: none;
+    border-radius: 8px;
+    background-color: rgb(241, 241, 241);
+}
+.camposDeTexto :focus{
+    background-color: white;
+    transition: 0.1s;
+}
+.radioBtns{
+    margin-top: 10px;
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+}
+button{
+    background-color: white;
+    border: none;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-radius:5px;
+    width: 100px;
+    margin-top: 10px;
+    height: 30px;
+    cursor: pointer;
+}
+button:hover {
+    border: 1px solid rgb(255,255,255);
+    background-color: rgb(0,0,0);
+    color: #fff;
+}

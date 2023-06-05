@@ -1,0 +1,58 @@
+<div class="content">
+    <h1>Dados do cliente</h1>
+
+    <form onsubmit="conferirForm()" method="get" action="#">
+        <div class="camposDeTexto">
+            <div>
+                <p>
+                    <label for="nome">Nome</label><br>
+                    <input type="text" id="nome" name="Nome" size="20" required>
+                </p>
+                <p>
+                    <label for="cpf">CPF</label><br>
+                    <input type="text" id="cpf" name="cpf" size="20" required>
+                </p>
+            </div>
+
+            <div>
+                <p>
+                    <label for="email">Email</label><br>
+                    <input type="email" id="email" name="email" size="20" required>
+                </p>
+                <p>
+                    <label for="fone">Telefone</label><br>
+                    <input type="tel" id="fone" name="fone" required>
+                </p>
+            </div>
+        </div>
+        <p class="tituloFormaPag">Escolha a forma de pagamento</p>
+        <div class="radioBtns">
+
+            <p>
+                <input type="radio" id="debito" name="tipopg" value="DEBITO">
+                <label for="debito">DÉBITO</label><br>
+            </p>
+
+            <p>
+                <input type="radio" id="credito" name="tipopg" value="CREDITo">
+                <label for="credito">Crédito</label><br>
+            </p>
+
+            <p>
+                <input type="radio" id="pix" name="tipopg" value="PIX">
+                <label for="pix">PIX</label><br>
+            </p>
+
+            <p>
+                <input type="radio" id="boleto" name="tipopg" value="BOLETO">
+                <label for="boleto">Boleto</label>
+            </p>
+        </div>
+
+        <p>
+            <button type="submit">Confirmar</button>
+            <button type="reset">Limpar</button>
+        </p>
+
+    </form>
+</div>

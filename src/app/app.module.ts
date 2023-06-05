@@ -9,6 +9,8 @@ import { XadrezComponent } from './components/xadrez/xadrez.component';
 import { DamasComponent } from './components/damas/damas.component';
 import { PokerComponent } from './components/poker/poker.component';
 import { JogoDaVelhaComponent } from './components/jogo-da-velha/jogo-da-velha.component';
+import { LojaComponent } from './components/loja/loja.component';
+import { FormularioComponent } from './components/formulario/formulario.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +20,9 @@ import { JogoDaVelhaComponent } from './components/jogo-da-velha/jogo-da-velha.c
     XadrezComponent,
     DamasComponent,
     PokerComponent,
-    JogoDaVelhaComponent
+    JogoDaVelhaComponent,
+    LojaComponent,
+    FormularioComponent
   ],
   imports: [
     BrowserModule,
